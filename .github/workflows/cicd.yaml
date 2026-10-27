@@ -3,9 +3,9 @@ on: push
 
 jobs:
    my-job:
-  runns-on: self-hosted
+    runs-on: self-hosted
  steps:
-      - name: this is sample-self hosted job
-       run: echo " 2nd self hosted project"
+    - name: this is sample-self hosted job
+      run: echo " 2nd self hosted project"
    
       
