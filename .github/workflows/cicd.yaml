@@ -1,0 +1,11 @@
+name: Self-hosted-runner-2
+on: push
+
+jobs:
+   my-job:
+  runns-on: self-hosted
+ steps:
+      - name: this is sample-self hosted job
+       run: echo " 2nd self hosted project"
+   
+      
